@@ -19,7 +19,7 @@ jobs:
           on:
   push:
     branches:
-    - qa
+    - DEV
 ...
 portal_id: ${{ secrets.staging_account_id }}
 - name: HubSpot Deploy Action
